@@ -1,6 +1,6 @@
 class RustyPsql < Formula
-  desc "A wrapper around psql where connection information is pulled from Azure Key Vault"
-  homepage ""
+  desc "Wrapper around psql where connection information is pulled from Azure Key Vault"
+  homepage "https://github.com/kometen/rusty-psql"
   url "https://github.com/kometen/rusty-psql/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "22b58286986cf3121f638022ca4e6be953d8755e434e3943f22d2c71c4abd6ba"
   license "MIT"
