@@ -1,6 +1,3 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class V011 < Formula
   desc "Wrapper around psql where connection information is pulled from Azure Key Vault"
   homepage "https://github.com/kometen/rusty-psql"
