@@ -1,16 +1,9 @@
 class RustyPsql < Formula
   desc "Wrapper around psql where connection information is pulled from Azure Key Vault"
   homepage "https://github.com/kometen/rusty-psql"
-  url "https://github.com/kometen/rusty-psql/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "22b58286986cf3121f638022ca4e6be953d8755e434e3943f22d2c71c4abd6ba"
+  url "https://github.com/kometen/rusty-psql/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "7341a60f81b09f25402b6bd768d06c41b45489e3cb50b1e89221181e09cb5ac6"
   license "MIT"
-
-  bottle do
-    root_url "https://github.com/kometen/homebrew-rusty-psql/releases/download/rusty-psql-0.1.0"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "b68758aefae894225d46bd06a818d31175841dcae4203d76e5447b25b1a53800"
-    sha256 cellar: :any_skip_relocation, ventura:       "1bd2e07da4f4d2019522285139dc9a343d24b4b32ba298527618b929f6a648c8"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "6c00280866b6d877b0f8981574dd3c9ebd7043c6e4cbb1a806264fbc3643231b"
-  end
 
   depends_on "rust" => :build
   depends_on "openssl@3.4"
